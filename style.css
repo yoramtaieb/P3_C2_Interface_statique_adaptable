@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* PARTIE HEADER */
+
+header {
+    background: url(./images/mastehead.jpg) center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/* PARTIE NAV */
+
+header nav {
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header nav h3 {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+header nav img {
+    height: 2vh;
+    margin-bottom: 15px;
+}
+
+
+/* PARTIE CONTAINER 1 */
+
+header .text-première-section {
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+
+/* PARTIE CONTAINER 2 */
+
+header main .container2 {}
