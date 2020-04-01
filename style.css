@@ -8,6 +8,15 @@ body {
 }
 
 
+/* FONT-FAMILY */
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 500 600;
+    src: url(/assets/font/OpenSans-Regular.ttf);
+}
+
+
 /* PARTIE HEADER */
 
 header {
