@@ -52,7 +52,15 @@ header .text-première-section {
 /* PARTIE START */
 
 main .start {
-    background: green;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+}
+
+main .start p {
+    padding-top: 5%;
 }
 
 
@@ -74,6 +82,7 @@ main .details {
 
 main .more-power {
     background: url(./images/full-image.jpg);
+    height: 60vh;
 }
 
 
