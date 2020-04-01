@@ -49,6 +49,36 @@ header .text-première-section {
 }
 
 
-/* PARTIE CONTAINER 2 */
+/* PARTIE START */
 
-header main .container2 {}
+main .start {
+    background: green;
+}
+
+
+/* PARTIE MULTICOLOR */
+
+main .multicolor {
+    background: red;
+}
+
+
+/* PARTIE DETAILS */
+
+main .details {
+    background: yellow;
+}
+
+
+/* PARTIE MORE POWER */
+
+main .more-power {
+    background: url(./images/full-image.jpg);
+}
+
+
+/* PARTIE REASONS */
+
+main .reasons {
+    background: violet;
+}
