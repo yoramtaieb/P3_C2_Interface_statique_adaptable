@@ -52,7 +52,7 @@ header .text-première-section {
 /* PARTIE START */
 
 main .start {
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,14 +67,76 @@ main .start p {
 /* PARTIE MULTICOLOR */
 
 main .multicolor {
-    background: red;
+    height: 170vh;
+}
+
+main .multicolor h2,
+main .multicolor h3,
+main .multicolor p {
+    color: white;
+}
+
+main .multicolor .first-color {
+    background: #F3989F;
+    height: 30vh;
+    padding: 8%;
+}
+
+main .multicolor .first-color p,
+main .multicolor .first-color h3 {
+    padding-top: 5%;
+}
+
+main .multicolor .second-color {
+    background: #5F5F80;
+    height: 30vh;
+    padding: 8%;
+}
+
+main .multicolor .second-color p,
+main .multicolor .second-color h3 {
+    padding-top: 5%;
+}
+
+main .multicolor .third-color {
+    background: url(./images/box-bg.jpg);
+    height: 30vh;
+    padding: 8%;
+}
+
+main .multicolor .third-color p,
+main .multicolor .third-color h3 {
+    padding-top: 5%;
+}
+
+main .multicolor .fourth-color {
+    background: url(./images/box-bg-lg.jpg);
+    height: 30vh;
+    padding: 8%;
+}
+
+main .multicolor .fourth-color p,
+main .multicolor .fourth-color h3 {
+    padding-top: 5%;
+}
+
+main .multicolor .fifth-color {
+    background: #82C99E;
+    height: 30vh;
+    padding: 8%;
+}
+
+main .multicolor .fifth-color p,
+main .multicolor .fifth-color h3 {
+    padding-top: 5%;
 }
 
 
 /* PARTIE DETAILS */
 
 main .details {
-    background: yellow;
+    background: lightblue;
+    height: 140vh;
 }
 
 
