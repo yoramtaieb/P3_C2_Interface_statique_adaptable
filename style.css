@@ -296,7 +296,30 @@ main .before-last {
 
 /* PARTIE FOOTER */
 
-.footer-first {
-    border: blue 5px solid;
+.footer {
+    background: #172432;
     height: 120vh;
+    color: white;
+}
+
+.footer .footer-paragraph {
+    padding: 5%;
+}
+
+.footer .footer-paragraph p {
+    padding-top: 5%;
+}
+
+.footer .formulaire {
+    padding: 5%;
+}
+
+.footer .formulaire form input {
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.footer .formulaire form p {
+    padding-top: 5%;
 }
