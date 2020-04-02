@@ -300,6 +300,7 @@ main .before-last {
     background: #172432;
     height: 120vh;
     color: white;
+    padding-top: 20%;
 }
 
 .footer .footer-paragraph {
@@ -322,4 +323,18 @@ main .before-last {
 
 .footer .formulaire form p {
     padding-top: 5%;
+}
+
+.footer .formulaire form button {
+    background: url(./images/tick.svg) green no-repeat;
+    width: 10%;
+    height: 40px;
+    border-radius: 8px;
+    padding-bottom: 3%;
+}
+
+.footer .text-footer {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
 }
