@@ -232,12 +232,14 @@ main .reasons .first-text-reasons p {
 /* PARTIE BEFORE-LAST */
 
 main .before-last {
-    height: 130vh;
-    border: 5px solid darkkhaki;
+    height: 150vh;
     padding: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+.before-last .second-last {
+    padding-top: 40%;
 }
 
 .before-last .first-last .first-button {
@@ -252,6 +254,7 @@ main .before-last {
     font-size: 20px;
     border-radius: 7px;
     color: white;
+    margin-top: 20px;
 }
 
 .before-last .second-last .third-button {
@@ -266,6 +269,7 @@ main .before-last {
     font-size: 20px;
     border-radius: 7px;
     color: white;
+    margin-top: 20px;
 }
 
 .before-last .first-last h2 {
@@ -274,6 +278,19 @@ main .before-last {
 
 .before-last .first-last p {
     padding-top: 5%;
+}
+
+.before-last .first-last .first-last-icone {
+    padding-top: 5%;
+}
+
+.before-last .second-last h2,
+.before-last .second-last p {
+    padding-top: 5%;
+}
+
+.before-last .second-last .second-last-icone {
+    padding-top: 10%;
 }
 
 
