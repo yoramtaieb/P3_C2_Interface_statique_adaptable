@@ -151,7 +151,7 @@ main .multicolor .fifth-color h3 {
 /* PARTIE DETAILS */
 
 main .details {
-    height: 180vh;
+    height: 140vh;
     display: flex;
     flex-direction: column;
     padding: 5%;
@@ -178,7 +178,7 @@ main .details .fifth-text-details p {
 
 main .more-power {
     background: url(./images/full-image.jpg) no-repeat;
-    height: 130vh;
+    height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -213,7 +213,7 @@ main .more-power .lien-svg a .link {
 /* PARTIE REASONS */
 
 main .reasons {
-    height: 130vh;
+    height: 100vh;
     background: #82C99E;
     color: white;
     padding: 5%
@@ -232,7 +232,7 @@ main .reasons .first-text-reasons p {
 /* PARTIE BEFORE-LAST */
 
 main .before-last {
-    height: 150vh;
+    height: 110vh;
     padding: 10%;
     display: flex;
     flex-direction: column;
@@ -298,7 +298,7 @@ main .before-last {
 
 .footer {
     background: #172432;
-    height: 120vh;
+    height: 80vh;
     color: white;
     padding-top: 20%;
 }
