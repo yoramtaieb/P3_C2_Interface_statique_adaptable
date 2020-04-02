@@ -151,10 +151,14 @@ main .multicolor .fifth-color h3 {
 /* PARTIE DETAILS */
 
 main .details {
-    height: 170vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     padding: 5%;
+}
+
+main .details h2 {
+    font-size: 30px;
 }
 
 main .details .first-text-details {
@@ -174,7 +178,7 @@ main .details .fifth-text-details p {
 
 main .more-power {
     background: url(./images/full-image.jpg) no-repeat;
-    height: 100vh;
+    height: 130vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -188,6 +192,10 @@ main .more-power h1 {
 }
 
 main .more-power p {
+    padding-top: 5%;
+}
+
+main .more-power .lien-svg {
     padding-top: 10%;
 }
 
@@ -197,11 +205,27 @@ main .more-power .lien-svg a {
     color: white;
 }
 
+main .more-power .lien-svg a .link {
+    padding-top: 1%;
+}
+
 
 /* PARTIE REASONS */
 
 main .reasons {
-    background: violet;
+    height: 130vh;
+    background: #82C99E;
+    color: white;
+    padding: 5%
+}
+
+main .reasons h2 {
+    font-size: 30px;
+    padding-top: 20%;
+}
+
+main .reasons .first-text-reasons p {
+    padding-top: 10%;
 }
 
 
@@ -210,6 +234,24 @@ main .reasons {
 .before-last {
     height: 100vh;
     border: 5px solid darkkhaki;
+}
+
+.before-last .first-last .first-button {
+    background: #e2e1e4;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+.before-last .first-last .second-button {
+    background: #7ecc9a;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+.before-last .first-last .third-button {
+    background: #bc8dc1;
+    font-size: 20px;
+    border-radius: 10%;
 }
 
 .footer-first {
