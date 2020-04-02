@@ -46,7 +46,7 @@ header nav img {
 }
 
 
-/* PARTIE CONTAINER 1 */
+/* PARTIE PREMIÈRE SECTION */
 
 header .text-première-section {
     color: white;
@@ -66,6 +66,7 @@ main .start {
     flex-direction: column;
     justify-content: center;
     padding: 10%;
+    padding-top: 20%;
 }
 
 main .start p {
@@ -77,6 +78,11 @@ main .start p {
 
 main .multicolor {
     height: 170vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
 }
 
 main .multicolor h2,
@@ -109,6 +115,7 @@ main .multicolor .second-color h3 {
 
 main .multicolor .third-color {
     background: url(./images/box-bg.jpg);
+    background-size: 100%;
     height: 30vh;
     padding: 8%;
 }
@@ -144,16 +151,50 @@ main .multicolor .fifth-color h3 {
 /* PARTIE DETAILS */
 
 main .details {
-    background: lightblue;
-    height: 140vh;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+main .details .first-text-details {
+    padding-top: 10%;
+}
+
+main .details .first-text-details p,
+main .details .second-text-details p,
+main .details .third-text-details p,
+main .details .fourth-text-details p,
+main .details .fifth-text-details p {
+    padding-top: 10%;
 }
 
 
 /* PARTIE MORE POWER */
 
 main .more-power {
-    background: url(./images/full-image.jpg);
-    height: 60vh;
+    background: url(./images/full-image.jpg) no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    padding-bottom: 20%;
+}
+
+main .more-power h1 {
+    font-size: 50px;
+}
+
+main .more-power p {
+    padding-top: 10%;
+}
+
+main .more-power .lien-svg a {
+    fill: white;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -161,4 +202,17 @@ main .more-power {
 
 main .reasons {
     background: violet;
+}
+
+
+/* PARTIE BEFORE-LAST */
+
+.before-last {
+    height: 100vh;
+    border: 5px solid darkkhaki;
+}
+
+.footer-first {
+    border: blue 5px solid;
+    height: 120vh;
 }
