@@ -20,7 +20,7 @@ body {
 /* PARTIE HEADER */
 
 header {
-    background: url(./images/mastehead.jpg) center;
+    background: url(./images/mastehead.jpg) center / cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -86,7 +86,7 @@ main .multicolor {
 }
 
 main .multicolor h2,
-main .multicolor h3,
+main .multicolor h5,
 main .multicolor p {
     color: white;
 }
@@ -151,7 +151,7 @@ main .multicolor .fifth-color h3 {
 /* PARTIE DETAILS */
 
 main .details {
-    height: 140vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     padding: 5%;
@@ -342,4 +342,83 @@ main .before-last {
 
 /* PARTIE RESPONSIVE TABLETTE IPAD */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1124px) {
+    /* PARTIE HEADER */
+    header {
+        background: url(./images/mastehead.jpg) center;
+        background-repeat: no-repeat;
+        height: 90vh;
+    }
+    /* ---------------------------------------------------- */
+    /* PARTIE NAV */
+    header nav h3 {
+        color: white;
+        margin-bottom: 5px;
+    }
+    header .text-première-section {
+        color: white;
+        height: 60vh;
+        padding-left: 15%;
+    }
+    header .text-première-section h1 {
+        font-size: 50px;
+    }
+    header .text-première-section p {
+        line-height: 20px;
+    }
+    /* --------------------------------------------------- */
+    /* PARTIE START */
+    main .start {
+        height: 60vh;
+    }
+    main .start .start2 {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+    }
+    main .start .start2 .start3 {
+        display: flex;
+        justify-content: center;
+        width: 120vh;
+    }
+    main .start .start2 .start4 {
+        padding-left: 5%;
+        padding-top: 15%;
+    }
+    /* ------------------------------------------------ */
+    /* PARTIE MULTICOLOR */
+    main .multicolor {
+        padding-top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 90vh;
+    }
+    main .multicolor .first-color {
+        width: 50%;
+    }
+    main .multicolor .second-color {
+        width: 50%;
+    }
+    main .multicolor .third-color {
+        width: 50%;
+    }
+    main .multicolor .fourth-color {
+        width: 50%;
+    }
+    main .multicolor .fifth-color {
+        width: 100%;
+    }
+    /* -------------------------------------------------- */
+    /* PARTIE DETAILS */
+    main .details {
+        padding-top: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 5px solid blue;
+    }
+    main .details .first-text-details {
+        border: black 5px solid;
+    }
+}
