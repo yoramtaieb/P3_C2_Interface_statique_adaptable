@@ -412,13 +412,27 @@ main .before-last {
     /* -------------------------------------------------- */
     /* PARTIE DETAILS */
     main .details {
-        padding-top: 20%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        border: 5px solid blue;
+        padding-top: 20vh;
+        height: 85vh;
     }
     main .details .first-text-details {
-        border: black 5px solid;
+        width: 30vh;
+    }
+    main .details .second-text-details {
+        width: 30vh;
+        position: relative;
+        left: 35vh;
+        bottom: 20vh;
+    }
+    main .details .third-text-details {
+        width: 30vh;
+        position: relative;
+        bottom: 20vh;
+    }
+    main .details .fourth-text-details {
+        width: 30vh;
+        position: relative;
+        left: 35vh;
+        bottom: 40vh;
     }
 }
