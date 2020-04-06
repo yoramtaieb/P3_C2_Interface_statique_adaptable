@@ -479,4 +479,15 @@ main .before-last {
         left: 37vh;
         bottom: 55.5vh;
     }
+    /* -------------------------------------------------- */
+    /* PARTIE FOOTER */
+    .footer {
+        height: 80vh;
+        color: white;
+    }
+    .footer .formulaire form button {
+        width: 6%;
+        position: relative;
+        bottom: 6px;
+    }
 }
