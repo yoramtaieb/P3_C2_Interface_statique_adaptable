@@ -228,6 +228,14 @@ main .reasons .first-text-reasons p {
     padding-top: 10%;
 }
 
+main .reasons .second-text-reasons p {
+    padding-top: 10%;
+}
+
+main .reasons .third-text-reasons p {
+    padding-top: 10%;
+}
+
 
 /* PARTIE BEFORE-LAST */
 
@@ -434,5 +442,26 @@ main .before-last {
         position: relative;
         left: 35vh;
         bottom: 40vh;
+    }
+    /* -------------------------------------------------- */
+    /* PARTIE REASONS */
+    main .reasons {
+        height: 60vh;
+        margin-top: -16vh;
+    }
+    main .reasons .first-text-reasons {
+        width: 20vh;
+    }
+    main .reasons .second-text-reasons {
+        width: 20vh;
+        position: relative;
+        left: 23vh;
+        bottom: 21.5vh;
+    }
+    main .reasons .third-text-reasons {
+        width: 20vh;
+        position: relative;
+        left: 47vh;
+        bottom: 43vh;
     }
 }
