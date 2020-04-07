@@ -43,8 +43,7 @@ header nav {
 
 header nav h3 {
     color: white;
-    padding-bottom: 5%;
-    padding-left: 2%;
+    padding: 3%;
 }
 
 header nav img {
@@ -491,10 +490,44 @@ main .before-last {
     }
     /* PARTIE HEADER */
     header .text-première-section {
-        padding-left: 30%;
-        padding-bottom: 10%;
+        padding-left: 20%;
+        padding-bottom: 15%;
     }
     header .text-première-section h1 {
         font-size: 50px;
+    }
+    header .text-première-section h1 br {
+        display: none;
+    }
+    header .text-première-section p .ligne {
+        display: none;
+    }
+    /* PARTIE NAV */
+    header nav h3 {
+        color: white;
+        position: relative;
+        bottom: 115px;
+        right: 30px;
+    }
+    header nav img {
+        margin-bottom: 160px;
+    }
+    /* --------------------------------------------------- */
+    /* PARTIE START */
+    main .start {
+        padding: 15%;
+    }
+    main .start .start2 {
+        width: 100%;
+        display: flex;
+    }
+    main .start .start2 .start3 {
+        display: flex;
+        justify-content: center;
+        width: 120vh;
+    }
+    main .start .start2 .start4 {
+        padding-left: 5%;
+        padding-top: 15%;
     }
 }
