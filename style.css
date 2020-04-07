@@ -26,6 +26,13 @@ header {
 }
 
 
+/* IMAGE IPHONE */
+
+.image-iphone {
+    display: none;
+}
+
+
 /* PARTIE NAV */
 
 header nav {
@@ -319,8 +326,7 @@ main .before-last {
 
 .footer .formulaire form input {
     width: 70%;
-    border-radius: 10px;
-    padding: 3%;
+    padding: 4%;
 }
 
 .footer .formulaire form p {
@@ -328,16 +334,13 @@ main .before-last {
 }
 
 .footer .formulaire form button {
-    background: url(./images/tick.svg) green no-repeat;
-    width: 10%;
-    border-radius: 10px;
-    padding: 5%;
+    padding: 6%;
+    background: url(./images/tick.svg) green;
 }
 
 .footer .text-footer {
     padding: 5%;
     display: flex;
-    justify-content: space-around;
 }
 
 
@@ -350,14 +353,7 @@ main .before-last {
         background-repeat: no-repeat;
         height: 90vh;
     }
-    /* ---------------------------------------------------- */
-    /* PARTIE NAV */
-    header nav h3 {
-        color: white;
-        margin-bottom: 5px;
-    }
     header .text-première-section {
-        color: white;
         height: 60vh;
         padding-left: 15%;
     }
@@ -369,9 +365,6 @@ main .before-last {
     }
     /* --------------------------------------------------- */
     /* PARTIE START */
-    main .start {
-        height: 60vh;
-    }
     main .start .start2 {
         height: 50vh;
         width: 100%;
@@ -389,11 +382,9 @@ main .before-last {
     /* ------------------------------------------------ */
     /* PARTIE MULTICOLOR */
     main .multicolor {
-        padding-top: 10%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 90vh;
     }
     main .multicolor .first-color {
         width: 50%;
@@ -413,8 +404,7 @@ main .before-last {
     /* -------------------------------------------------- */
     /* PARTIE DETAILS */
     main .details {
-        padding-top: 20vh;
-        height: 85vh;
+        padding-top: 10vh;
     }
     main .details .first-text-details {
         width: 30vh;
@@ -437,10 +427,16 @@ main .before-last {
         bottom: 40vh;
     }
     /* -------------------------------------------------- */
+    /* PARTIE MORE POWER */
+    main .more-power {
+        position: relative;
+        bottom: 35vh;
+    }
+    /* -------------------------------------------------- */
     /* PARTIE REASONS */
     main .reasons {
         height: 60vh;
-        margin-top: -16vh;
+        margin-top: -50vh;
     }
     main .reasons .first-text-reasons {
         width: 20vh;
@@ -474,18 +470,31 @@ main .before-last {
     }
     /* -------------------------------------------------- */
     /* PARTIE FOOTER */
-    .footer {
-        height: 80vh;
-        color: white;
-    }
-    .footer .formulaire form button {
-        width: 6%;
-        position: relative;
-        bottom: 6px;
+    .footer .text-footer {
+        padding: 5%;
+        display: flex;
+        justify-content: space-around;
     }
 }
 
 
 /* PARTIE RESPONSIVE DESKTOP */
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    /* IMAGE IPHONE */
+    .image-iphone {
+        display: block;
+        position: absolute;
+        left: 100vh;
+        top: 25vh;
+        height: 100vh;
+    }
+    /* PARTIE HEADER */
+    header .text-première-section {
+        padding-left: 30%;
+        padding-bottom: 10%;
+    }
+    header .text-première-section h1 {
+        font-size: 50px;
+    }
+}
