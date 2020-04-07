@@ -36,12 +36,12 @@ header nav {
 
 header nav h3 {
     color: white;
-    padding: 10px;
-    margin: 0;
+    padding-bottom: 5%;
+    padding-left: 2%;
 }
 
 header nav img {
-    height: 2vh;
+    height: 3vh;
     margin-bottom: 15px;
 }
 
@@ -61,12 +61,11 @@ header .text-première-section {
 /* PARTIE START */
 
 main .start {
-    height: 70vh;
+    /* height: 70vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10%;
-    padding-top: 20%;
+    padding: 15% 5%;
 }
 
 main .start p {
@@ -77,12 +76,11 @@ main .start p {
 /* PARTIE MULTICOLOR */
 
 main .multicolor {
-    height: 170vh;
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 5%;
+    padding: 1% 5%;
 }
 
 main .multicolor h2,
@@ -93,7 +91,6 @@ main .multicolor p {
 
 main .multicolor .first-color {
     background: #F3989F;
-    height: 30vh;
     padding: 8%;
 }
 
@@ -104,7 +101,6 @@ main .multicolor .first-color h3 {
 
 main .multicolor .second-color {
     background: #5F5F80;
-    height: 30vh;
     padding: 8%;
 }
 
@@ -116,7 +112,6 @@ main .multicolor .second-color h3 {
 main .multicolor .third-color {
     background: url(./images/box-bg.jpg);
     background-size: 100%;
-    height: 30vh;
     padding: 8%;
 }
 
@@ -126,8 +121,8 @@ main .multicolor .third-color h3 {
 }
 
 main .multicolor .fourth-color {
-    background: url(./images/box-bg-lg.jpg);
-    height: 30vh;
+    background: url(./images/box-bg-lg.jpg) no-repeat;
+    background-size: cover;
     padding: 8%;
 }
 
@@ -138,7 +133,6 @@ main .multicolor .fourth-color h3 {
 
 main .multicolor .fifth-color {
     background: #82C99E;
-    height: 30vh;
     padding: 8%;
 }
 
@@ -151,7 +145,6 @@ main .multicolor .fifth-color h3 {
 /* PARTIE DETAILS */
 
 main .details {
-    height: 120vh;
     display: flex;
     flex-direction: column;
     padding: 5%;
@@ -213,7 +206,6 @@ main .more-power .lien-svg a .link {
 /* PARTIE REASONS */
 
 main .reasons {
-    height: 110vh;
     background: #82C99E;
     color: white;
     padding: 5%
@@ -240,7 +232,6 @@ main .reasons .third-text-reasons p {
 /* PARTIE BEFORE-LAST */
 
 main .before-last {
-    height: 110vh;
     padding: 10%;
     display: flex;
     flex-direction: column;
@@ -306,9 +297,8 @@ main .before-last {
 
 .footer {
     background: #172432;
-    height: 80vh;
     color: white;
-    padding-top: 20%;
+    padding: 5%;
 }
 
 .footer .footer-paragraph {
@@ -323,10 +313,14 @@ main .before-last {
     padding: 5%;
 }
 
+.footer .formulaire p {
+    padding-bottom: 5%;
+}
+
 .footer .formulaire form input {
     width: 70%;
-    height: 40px;
-    border-radius: 8px;
+    border-radius: 10px;
+    padding: 3%;
 }
 
 .footer .formulaire form p {
@@ -336,9 +330,8 @@ main .before-last {
 .footer .formulaire form button {
     background: url(./images/tick.svg) green no-repeat;
     width: 10%;
-    height: 40px;
-    border-radius: 8px;
-    padding-bottom: 3%;
+    border-radius: 10px;
+    padding: 5%;
 }
 
 .footer .text-footer {
@@ -350,7 +343,7 @@ main .before-last {
 
 /* PARTIE RESPONSIVE TABLETTE IPAD */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1124px) {
+@media screen and (min-width: 768px) and (max-width: 1112px) {
     /* PARTIE HEADER */
     header {
         background: url(./images/mastehead.jpg) center;
@@ -491,3 +484,8 @@ main .before-last {
         bottom: 6px;
     }
 }
+
+
+/* PARTIE RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px) {}
