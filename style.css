@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Open Sans";
 }
 
 
@@ -384,6 +384,7 @@ main .before-last {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding-top: 10%;
     }
     main .multicolor .first-color {
         width: 50%;
@@ -412,7 +413,7 @@ main .before-last {
         width: 30vh;
         position: relative;
         left: 35vh;
-        bottom: 20vh;
+        bottom: 23vh;
     }
     main .details .third-text-details {
         width: 30vh;
@@ -423,7 +424,7 @@ main .before-last {
         width: 30vh;
         position: relative;
         left: 35vh;
-        bottom: 40vh;
+        bottom: 43vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE MORE POWER */
@@ -444,13 +445,13 @@ main .before-last {
         width: 20vh;
         position: relative;
         left: 23vh;
-        bottom: 21.5vh;
+        bottom: 30vh;
     }
     main .reasons .third-text-reasons {
         width: 20vh;
         position: relative;
         left: 47vh;
-        bottom: 43vh;
+        bottom: 60vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE BEFORE-LAST */
@@ -465,7 +466,7 @@ main .before-last {
         width: 25vh;
         position: relative;
         left: 37vh;
-        bottom: 55.5vh;
+        bottom: 58vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE FOOTER */
@@ -488,6 +489,7 @@ main .before-last {
         top: 25vh;
         height: 100vh;
     }
+    /* --------------------------------------------------- */
     /* PARTIE HEADER */
     header .text-première-section {
         padding-left: 20%;
@@ -502,6 +504,7 @@ main .before-last {
     header .text-première-section p .ligne {
         display: none;
     }
+    /* --------------------------------------------------- */
     /* PARTIE NAV */
     header nav h3 {
         color: white;
@@ -515,19 +518,42 @@ main .before-last {
     /* --------------------------------------------------- */
     /* PARTIE START */
     main .start {
-        padding: 15%;
+        padding: 10%;
+        margin-top: -100px;
+    }
+    main .start h2 {
+        font-size: 50px;
     }
     main .start .start2 {
         width: 100%;
         display: flex;
     }
     main .start .start2 .start3 {
-        display: flex;
-        justify-content: center;
-        width: 120vh;
+        width: 300vh;
     }
     main .start .start2 .start4 {
         padding-left: 5%;
         padding-top: 15%;
+    }
+    /* ------------------------------------------------ */
+    /* PARTIE MULTICOLOR */
+    main .multicolor {
+        padding: 10%;
+        margin-top: -170px;
+    }
+    main .multicolor .first-color {
+        width: 50%;
+    }
+    main .multicolor .second-color {
+        width: 50%;
+    }
+    main .multicolor .third-color {
+        width: 50%;
+    }
+    main .multicolor .fourth-color {
+        width: 80%;
+    }
+    main .multicolor .fifth-color {
+        width: 50%;
     }
 }
