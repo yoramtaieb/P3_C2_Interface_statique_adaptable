@@ -616,4 +616,31 @@ main .before-last {
         padding-left: 20%;
         margin-bottom: -70vh;
     }
+    /* -------------------------------------------------- */
+    /* PARTIE REASONS */
+    main .reasons {
+        height: 70vh;
+        padding: 10%;
+    }
+    main .reasons h2 {
+        position: relative;
+        bottom: 40vh;
+    }
+    main .reasons .first-text-reasons {
+        width: 50vh;
+        position: relative;
+        bottom: 40vh;
+    }
+    main .reasons .second-text-reasons {
+        width: 50vh;
+        position: relative;
+        left: 57vh;
+        bottom: 72vh;
+    }
+    main .reasons .third-text-reasons {
+        width: 50vh;
+        position: relative;
+        left: 113vh;
+        bottom: 104vh;
+    }
 }
