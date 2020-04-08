@@ -326,6 +326,7 @@ main .before-last {
 .footer .formulaire form input {
     width: 70%;
     padding: 4%;
+    height: 1vh;
 }
 
 .footer .formulaire form p {
@@ -333,8 +334,12 @@ main .before-last {
 }
 
 .footer .formulaire form button {
-    padding: 6%;
     background: url(./images/tick.svg) green;
+    background-repeat: no-repeat;
+    height: 3.4vh;
+    width: 3vh;
+    position: relative;
+    top: 6.3px;
 }
 
 .footer .text-footer {
@@ -478,6 +483,12 @@ main .before-last {
         padding: 5%;
         display: flex;
         justify-content: space-around;
+    }
+    .footer .formulaire form button {
+        height: 5.3vh;
+        width: 5vh;
+        position: relative;
+        top: 19px;
     }
 }
 
@@ -657,5 +668,56 @@ main .before-last {
         position: relative;
         left: 84vh;
         bottom: 103vh;
+    }
+    /* -------------------------------------------------- */
+    /* PARTIE FOOTER */
+    .footer {
+        padding: 10%;
+    }
+    .footer .footer-paragraph p {
+        width: 80vh;
+        padding-top: 2%;
+    }
+    .footer .formulaire p {
+        padding: 0;
+    }
+    .footer .formulaire {
+        position: relative;
+        bottom: 32vh;
+        padding-left: 100vh;
+    }
+    .footer .formulaire form input {
+        padding: 3%;
+        width: 70vh;
+        position: relative;
+        top: 6vh;
+    }
+    .footer .formulaire form {
+        position: relative;
+        bottom: 5vh;
+    }
+    .footer .formulaire form p {
+        padding-top: 1%;
+        font-size: 12px;
+    }
+    .footer .formulaire form button {
+        width: 6vh;
+        height: 5.2vh;
+        position: relative;
+        left: 70vh;
+    }
+    .footer .text-footer {
+        position: relative;
+        bottom: 280px;
+        height: 1vh;
+        margin-bottom: -30vh;
+    }
+    .footer .text-footer .second-text-footer {
+        position: relative;
+        left: 15vh
+    }
+    .footer .text-footer .third-text-footer {
+        position: relative;
+        left: 30vh;
     }
 }
