@@ -597,4 +597,23 @@ main .before-last {
         left: 126vh;
         bottom: 99vh;
     }
+    /* -------------------------------------------------- */
+    /* PARTIE MORE POWER */
+    .ligne {
+        /* passage à la ligne "br" */
+        display: none;
+    }
+    .more-power h1 {
+        padding-left: 20%;
+        margin-bottom: -10vh;
+    }
+    .more-power p {
+        width: 100vh;
+        padding-left: 20%;
+        margin-bottom: -18vh;
+    }
+    .more-power .lien-svg {
+        padding-left: 20%;
+        margin-bottom: -70vh;
+    }
 }
