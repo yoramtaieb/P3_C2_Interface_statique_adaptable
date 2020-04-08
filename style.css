@@ -95,55 +95,55 @@ main .multicolor p {
     color: white;
 }
 
-main .multicolor .first-color {
+main .multicolor .first-case .first-color {
     background: #F3989F;
     padding: 8%;
 }
 
-main .multicolor .first-color p,
-main .multicolor .first-color h3 {
+main .multicolor .first-case .first-color p,
+main .multicolor .first-case .first-color h3 {
     padding-top: 5%;
 }
 
-main .multicolor .second-color {
+main .multicolor .first-case .second-color {
     background: #5F5F80;
     padding: 8%;
 }
 
-main .multicolor .second-color p,
-main .multicolor .second-color h3 {
+main .multicolor .first-case .second-color p,
+main .multicolor .first-case .second-color h3 {
     padding-top: 5%;
 }
 
-main .multicolor .third-color {
+main .multicolor .first-case .third-color {
     background: url(./images/box-bg.jpg);
     background-size: 100%;
     padding: 8%;
 }
 
-main .multicolor .third-color p,
-main .multicolor .third-color h3 {
+main .multicolor .first-case .third-color p,
+main .multicolor .first-case .third-color h3 {
     padding-top: 5%;
 }
 
-main .multicolor .fourth-color {
+main .multicolor .second-case .fourth-color {
     background: url(./images/box-bg-lg.jpg) no-repeat;
     background-size: cover;
     padding: 8%;
 }
 
-main .multicolor .fourth-color p,
-main .multicolor .fourth-color h3 {
+main .multicolor .second-case .fourth-color p,
+main .multicolor .second-case .fourth-color h3 {
     padding-top: 5%;
 }
 
-main .multicolor .fifth-color {
+main .multicolor .second-case .fifth-color {
     background: #82C99E;
     padding: 8%;
 }
 
-main .multicolor .fifth-color p,
-main .multicolor .fifth-color h3 {
+main .multicolor .second-case .fifth-color p,
+main .multicolor .second-case .fifth-color h3 {
     padding-top: 5%;
 }
 
@@ -380,9 +380,8 @@ main .before-last {
     }
     /* ------------------------------------------------ */
     /* PARTIE MULTICOLOR */
-    main .multicolor {
+    main .multicolor .first-case {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         padding-top: 10%;
     }
@@ -397,14 +396,19 @@ main .before-last {
     }
     main .multicolor .fourth-color {
         width: 50%;
+        position: relative;
+        left: 345px;
+        bottom: 246px;
     }
     main .multicolor .fifth-color {
         width: 100%;
+        position: relative;
+        bottom: 246px;
     }
     /* -------------------------------------------------- */
     /* PARTIE DETAILS */
     main .details {
-        padding-top: 10vh;
+        margin-top: -20vh;
     }
     main .details .first-text-details {
         width: 30vh;
