@@ -523,6 +523,7 @@ main .before-last {
     /* PARTIE START */
     main .start {
         padding: 10%;
+        margin-bottom: -30vh;
     }
     main .start h2 {
         font-size: 40px;
@@ -542,6 +543,7 @@ main .before-last {
     /* PARTIE MULTICOLOR */
     main .multicolor {
         padding: 10%;
+        margin-bottom: -20vh;
     }
     main .multicolor .first-case {
         display: flex;
@@ -563,5 +565,36 @@ main .before-last {
     }
     main .multicolor .fifth-color {
         width: 33.33%;
+    }
+    /* -------------------------------------------------- */
+    /* PARTIE DETAILS */
+    main .details {
+        padding: 10%;
+        margin-bottom: -700px;
+    }
+    main .details h2 {
+        margin-top: -10vh;
+        margin-bottom: -15vh;
+    }
+    main .details .first-text-details {
+        width: 40vh;
+    }
+    main .details .second-text-details {
+        width: 40vh;
+        position: relative;
+        left: 42vh;
+        bottom: 33vh;
+    }
+    main .details .third-text-details {
+        width: 40vh;
+        position: relative;
+        left: 85vh;
+        bottom: 66vh;
+    }
+    main .details .fourth-text-details {
+        width: 40vh;
+        position: relative;
+        left: 126vh;
+        bottom: 99vh;
     }
 }
