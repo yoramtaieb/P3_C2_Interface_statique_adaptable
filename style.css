@@ -643,4 +643,19 @@ main .before-last {
         left: 113vh;
         bottom: 104vh;
     }
+    /* -------------------------------------------------- */
+    /* PARTIE BEFORE-LAST */
+    main .before-last {
+        padding: 15%;
+        height: 90vh;
+    }
+    main .before-last .first-last {
+        width: 60vh;
+    }
+    main .before-last .second-last {
+        width: 60vh;
+        position: relative;
+        left: 84vh;
+        bottom: 103vh;
+    }
 }
