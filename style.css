@@ -519,10 +519,9 @@ main .before-last {
     /* PARTIE START */
     main .start {
         padding: 10%;
-        margin-top: -100px;
     }
     main .start h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
     main .start .start2 {
         width: 100%;
@@ -533,27 +532,32 @@ main .before-last {
     }
     main .start .start2 .start4 {
         padding-left: 5%;
-        padding-top: 15%;
+        padding-top: 10%;
     }
     /* ------------------------------------------------ */
     /* PARTIE MULTICOLOR */
     main .multicolor {
         padding: 10%;
-        margin-top: -170px;
+    }
+    main .multicolor .first-case {
+        display: flex;
+    }
+    main .multicolor .second-case {
+        display: flex;
     }
     main .multicolor .first-color {
-        width: 50%;
+        width: 33.33%;
     }
     main .multicolor .second-color {
-        width: 50%;
+        width: 33.33%;
     }
     main .multicolor .third-color {
-        width: 50%;
+        width: 33.34%;
     }
     main .multicolor .fourth-color {
-        width: 80%;
+        width: 66.67%;
     }
     main .multicolor .fifth-color {
-        width: 50%;
+        width: 33.33%;
     }
 }
