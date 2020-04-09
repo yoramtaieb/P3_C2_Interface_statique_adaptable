@@ -388,7 +388,6 @@ main .before-last {
     main .multicolor .first-case {
         display: flex;
         flex-wrap: wrap;
-        padding-top: 10%;
     }
     main .multicolor .first-color {
         width: 50%;
@@ -422,7 +421,7 @@ main .before-last {
         width: 30vh;
         position: relative;
         left: 35vh;
-        bottom: 23vh;
+        bottom: 21vh;
     }
     main .details .third-text-details {
         width: 30vh;
@@ -433,7 +432,7 @@ main .before-last {
         width: 30vh;
         position: relative;
         left: 35vh;
-        bottom: 43vh;
+        bottom: 41vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE MORE POWER */
@@ -445,7 +444,7 @@ main .before-last {
     /* PARTIE REASONS */
     main .reasons {
         height: 60vh;
-        margin-top: -50vh;
+        margin-top: -60vh;
     }
     main .reasons .first-text-reasons {
         width: 20vh;
@@ -454,13 +453,13 @@ main .before-last {
         width: 20vh;
         position: relative;
         left: 23vh;
-        bottom: 30vh;
+        bottom: 22vh;
     }
     main .reasons .third-text-reasons {
         width: 20vh;
         position: relative;
         left: 47vh;
-        bottom: 60vh;
+        bottom: 44vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE BEFORE-LAST */
