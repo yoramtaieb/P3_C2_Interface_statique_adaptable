@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: sans-serif;
 }
 
 
@@ -594,19 +594,19 @@ main .before-last {
         width: 40vh;
         position: relative;
         left: 42vh;
-        bottom: 33vh;
+        bottom: 29vh;
     }
     main .details .third-text-details {
         width: 40vh;
         position: relative;
         left: 85vh;
-        bottom: 66vh;
+        bottom: 58vh;
     }
     main .details .fourth-text-details {
         width: 40vh;
         position: relative;
         left: 126vh;
-        bottom: 99vh;
+        bottom: 87vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE MORE POWER */
@@ -646,13 +646,13 @@ main .before-last {
         width: 50vh;
         position: relative;
         left: 57vh;
-        bottom: 72vh;
+        bottom: 68vh;
     }
     main .reasons .third-text-reasons {
         width: 50vh;
         position: relative;
         left: 113vh;
-        bottom: 104vh;
+        bottom: 96vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE BEFORE-LAST */
@@ -667,7 +667,7 @@ main .before-last {
         width: 60vh;
         position: relative;
         left: 84vh;
-        bottom: 103vh;
+        bottom: 100vh;
     }
     /* -------------------------------------------------- */
     /* PARTIE FOOTER */
@@ -684,7 +684,7 @@ main .before-last {
     .footer .formulaire {
         position: relative;
         bottom: 32vh;
-        padding-left: 100vh;
+        padding-left: 95vh;
     }
     .footer .formulaire form input {
         padding: 3%;
